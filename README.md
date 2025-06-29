@@ -113,22 +113,22 @@ You can interact with the application through the FastAPI documentation, which i
        * If the analysis has failed:
 
 
-   1         {
-   2           "status": "failed",
-   3           "job_status": "failed",
-   4           "error": "Details about the error that occurred.",
-   5           "analysis_id": 1
-   6         }
+            {
+              "status": "failed",
+              "job_status": "failed",
+              "error": "Details about the error that occurred.",
+              "analysis_id": 1
+            }
 
        * If the analysis is still in progress:
 
 
-   1         {
-   2           "status": "processing",
-   3           "job_status": "started",
-   4           "analysis_id": 1,
-   5           "message": "Analysis is still processing. Please check back later."
-   6         }
+            {
+              "status": "processing",
+              "job_status": "started",
+              "analysis_id": 1,
+              "message": "Analysis is still processing. Please check back later."
+            }
 
    * Error Responses:
        * 404 Not Found: If a job with the specified job_id is not found.
