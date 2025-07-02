@@ -1,5 +1,5 @@
 ## Bugs found
-- The dependencies were a mess and could not be resolved easily at all. Fixed by removing unnecessary pinned dependencies; the correct versions of most conflicting dependencies was installed by crewai itself.
+- The dependencies were a mess and could not be resolved easily at all. Fixed by removing unnecessary pinned dependencies; the correct versions of most conflicting dependencies was installed by the crewai package itself.
 - The agent descriptions, backstories and tasks were inaccurate (although funny :P)
 - fixed the BloodTestReportTool to extend the crewai BaseTool, added pdf loading functionality.
 
